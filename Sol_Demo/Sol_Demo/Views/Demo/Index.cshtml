@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@await Html.PartialAsync("~/Views/Demo/_DemoPartialView.cshtml")
+
+<div render="htmlExecution"></div>
+
+
+@section Scripts{ 
+
+    <script render="scriptExecution"></script>
+
+}

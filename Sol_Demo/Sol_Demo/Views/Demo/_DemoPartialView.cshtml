@@ -1,0 +1,16 @@
+﻿<div id="divElement">
+</div>
+
+<div id="divElement1" capture="htmlExecution">
+</div>
+
+<button id="btnSubit" class="btn btn-danger" onclick="onSubmit();">Submit</button>
+
+<script type="text/javascript" capture="scriptExecution">
+
+    function onSubmit() {
+        $("#divElement").html("Hello Capture Tag Helper");
+        $("#divElement1").html("Hello Capture Tag Helper");
+    }
+
+</script>
